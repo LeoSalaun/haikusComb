@@ -79,3 +79,8 @@ button {
     height: fit-content;
     align-self: center;
 }
+
+#img1 {
+    border-style: solid;
+    border-color: #8a1f15;
+}
