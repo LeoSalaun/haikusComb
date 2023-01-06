@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
+/*body {
+    margin: 0;
+    height: 100vh;
+}*/
+
+body {
+    background-color: #FFF0F0;
+}
+
+h1,
+p {
+    text-align: center;
+    color: #8a1f15;
+}
+
+h1 {
+    font-family: 'Eagle Lake', sans-serif;
+    font-size: 3rem;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: #A82017;
+}
+
+p {
+    font-family: Alice, Helvetica, serif;
+    font-size: 1.5rem;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 9%;
+}
+
+/*main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+
+button {
+    position: relative;
+    left: 42%;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: #71A683;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25em;
+    margin: 1em 0;
+}
+
+.img {
+    flex-grow: 1;
+    position: relative;
+}
+
+.vers {
+    flex-grow: 1;
+    width: 10%;
+    height: fit-content;
+    align-self: center;
+}
