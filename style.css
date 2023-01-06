@@ -12,6 +12,7 @@ body {
 }
 
 h1,
+h2,
 p {
     text-align: center;
     color: #8a1f15;
@@ -21,8 +22,14 @@ h1 {
     font-family: 'Eagle Lake', sans-serif;
     font-size: 3rem;
     margin-top: 0.5em;
-    margin-bottom: 1em;
     color: #A82017;
+}
+
+h2 {
+    font-family: 'Eagle Lake', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1em;
+    color: #5f886c;
 }
 
 p {
